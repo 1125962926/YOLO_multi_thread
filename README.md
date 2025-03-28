@@ -13,12 +13,17 @@ From leafqycc：
 
 - 使用多态实现 OpenCV 和 FFmpeg 实现视频加载器动态切换；增加了命令行参数解析，将很多可选功能的开关控制权开放到命令行；优化内存管理。
 
+# Project analysis
+CSDN：
+
+
+
 # Instruction Manual
 ### （1）预装 OpenCV
 开发板需要预装 OpenCV，一般出厂系统都有。
 
 ### （2）测试视频
-下载 [Baseline](https://github.com/leafqycc/rknn-cpp-Multithreading) Releases中的测试视频，放项目的根目录。
+下载 [Baseline](https://github.com/leafqycc/rknn-cpp-Multithreading) Releases 中的测试视频，放项目的根目录。
 
 ### （3）定频（可选）
 可切换至 root 用户运行 performance.sh 定频提高性能和稳定性，我一般不使用。
@@ -32,3 +37,6 @@ From leafqycc：
 使用 `detect.sh` 进行推理，脚本会根据项目预定的命令行参数进行填写，然后执行编译后的可执行文件。可以根据自己的实际情况修改脚本参数，例如模型路径和视频路径。
 
 也可以直接执行可执行程序，会打印命令行参数提示。
+
+# Contact me
+QQ and e-mail：1125962926@qq.com
